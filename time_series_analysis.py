@@ -12,7 +12,7 @@ def price_at(x):
 # Function to get the maximum price between day a and day b
 def max_price(a, b):
     if 1 <= a <= len(stock_prices) and 1 <= b <= len(stock_prices) and a <= b:
-        return max(stock_prices[a - 1:b])  # Slicing the list from day a to b (inclusive)
+        return max(stock_prices[a - 1:b])  
     else:
         return "Invalid range of days."
 
