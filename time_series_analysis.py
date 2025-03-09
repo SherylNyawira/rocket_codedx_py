@@ -9,7 +9,7 @@ def price_at(x):
     else:
         return "Invalid day, please enter a day between 1 and 20."
 
-# Function to get the maximum price between day a and day b
+# Function to get the maximum price between day a and b
 def max_price(a, b):
     if 1 <= a <= len(stock_prices) and 1 <= b <= len(stock_prices) and a <= b:
         return max(stock_prices[a - 1:b])  
